@@ -142,7 +142,7 @@ Password:
 
     foreach ($account in $fullAccounts) {
         $Attributes = @{Path = $OU;
-            UserPrincipalName = "$Account@Venable.com";
+            UserPrincipalName = "$Account@Company.com";
             Name = $Account;
             samAccountName = $account;
             Description = $Description;
